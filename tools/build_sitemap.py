@@ -30,6 +30,7 @@ PAGES = [
     "advanced.html",
     "shelf.html",
     "records.html",
+    "services.html",
 ]
 
 

@@ -47,6 +47,8 @@ The shelf: proven work by others and by the Commons, each entry with its license
 https://topsoilcommons.org/shelf
 Public records: what stands in the open for each need, what the Commons holds, what others hold open for anyone, and what is missing, each record with its source and its limits.
 https://topsoilcommons.org/records
+Services: the builder's own offers, verification of a help board, a priced pilot, a claims audit, and training, each engaged by a written offer at a fixed price. Paying for work is kept apart from giving on this page, in plain words.
+https://topsoilcommons.org/services
 
 Machine files
 site.json: the seven acts as data, each with its need, its proof sentence, and its links.
@@ -59,6 +61,8 @@ https://topsoilcommons.org/layers.json
 https://topsoilcommons.org/api/today
 /api/give: the giving door, stated plainly. No fiscal host is appointed, so it answers that the door is shut, why it is shut, and what opens the day one is appointed.
 https://topsoilcommons.org/api/give
+/api/work: the services payment door, staged and shut. No payment route is switched on, so it answers that the door is shut, and what opens when the builder sets his own route.
+https://topsoilcommons.org/api/work
 llms.txt: this file.
 https://topsoilcommons.org/llms.txt
 sitemap.xml: every public page of this site.

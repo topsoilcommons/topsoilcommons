@@ -6,6 +6,12 @@ The map: [The Ascent](NEEDS.md). The method: build on proven open source codebas
 
 One rule: raise the floor beneath everyone.
 
+## How this place runs
+
+Everything in this organization is open source and public: the code in this repository stands under the MIT license, each project carries its own, and the record, the ledger, and the log stand open for anyone to check. Nothing is sold here, and no money is taken here. Gifts to the Commons move only through a fiscal host; none is appointed yet, and [FUNDS.md](FUNDS.md) says so plainly.
+
+The builder earns his living separately, in the open, in his own name: verification work, priced pilots, claims audits, and training, offered at [topsoilcommons.org/services](https://topsoilcommons.org/services). That work is his, not the Commons', and it buys no governance, no votes, and no standing here.
+
 ## Early exhibits
 
 - **Ground**, the body: 8 listings verified with check dates and expiries. [Live demo](https://topsoilcommons.github.io/ground/) · [Repository](https://github.com/topsoilcommons/ground)

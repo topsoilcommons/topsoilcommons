@@ -16,7 +16,7 @@ The intended host is Open Source Collective. It is intended, not appointed. An a
 
 The host's terms, read from its own documentation on October 15, 2026: a fixed host fee of 10 percent of incoming funds, collected when the money arrives, with no setup fees, no minimum balances, and no recurring charges. Payment processors charge their own fees on top of that.
 
-Two open items stand in the open. The host asks that a project live under an organizational repository rather than a personal account, and the Commons' work lives under the topsoilcommons GitHub account; whether the host accepts that account as it stands is the host's call. And the host is a 501(c)(6) nonprofit, so gifts given through it are not tax deductible charitable contributions for United States donors.
+Two open items stand in the open. The host asks that a project live under an organizational repository rather than a personal account, and the Commons' work lives under the topsoilcommons GitHub account; whether the host accepts that account as it stands is the host's call. And the host is a 501(c)(6) organization, so gifts given through it are not tax deductible charitable contributions for United States donors.
 
 ## What money would be spent on
 
@@ -37,5 +37,9 @@ Governance is never sold. Votes are never sold. Credit is never sold, and recogn
 ## The advisor's pay
 
 The advisor is paid nothing from Commons funds. That is the present fact, and it is the rule: it stays true unless and until terms saying otherwise are published in advance in this document. This rule governs Commons funds, the money held for the project. It does not change the published intention that the builder earns his own living from adoption, services, training, and anchor partnerships, earned in the open, with governance never part of the price.
+
+## The builder's services, from October 17, 2026
+
+The site now carries the builder's own offers in the open, at [Services](https://topsoilcommons.org/services): verification work, priced pilots, claims audits, and training. Fees for that work are the builder's personal living, earned in his own name, as the section above already stated. They are not Commons funds. They are not received by the Commons, not held for the Commons, and not entered in the funds ledger, which records Commons money only. What the Commons itself receives still moves only through the fiscal host, under the one channel rule above, and that door stays shut until a host is appointed. Paying for work buys the work only: no governance, no votes, no standing, and no place in the record beyond the credit any verified contribution earns.
 
 One rule stands over all of it: raise the floor beneath everyone.
