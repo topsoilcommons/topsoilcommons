@@ -2,6 +2,16 @@
 
 This is the public record of the work: what was done, what the proof shows, what broke, and what comes next. It is updated every work session, newest first, in plain language on purpose. If a claim anywhere in these projects cannot be traced to a logged run, the claim is wrong and the log is where it gets corrected.
 
+## October 18, 2026: three tools, built to be adopted in silence
+
+Joshua directed a suite of tools that spread on their own usefulness, with no outreach and no word from him: multipurpose, high value, and easy to adopt in the first minute. Three standalone tools are built and finished, each in its own folder, each usable alone, MIT licensed, Python standard library only, no accounts, no telemetry, working offline after download.
+
+check re-reads a directory of help listings against the providers' own pages and stamps the ones that still check out, verified today and expiring 30 days later, the Ground rule, with every failure named in plain words. prove is the standalone validator the Proof design promised: it takes a claim bundle (claim, ground, hand, check, links, seal), recomputes the seal, and prints a one page verdict any stranger can rerun. chain is the Index's hash chain generalized to any chronological JSON record: it builds the chain and verifies it, catching an edited entry, a removed entry, and a reordered pair, and printing which check failed.
+
+The proof, from the runs themselves: 25 of 25 tests pass (check 8, prove 9, chain 8), including all three tamper cases for chain. check ran live against the Ground board's own listings on October 18, 2026: both HOPE Community Services listings verified against the provider's page and were stamped, and the United Community Center of Westchester listing failed because its site closed the connection, and the run's report says exactly that, committed as evidence beside the tool. prove's examples stand sealed and verified: a valid bundle, a bundle with one word changed after sealing, and a bundle with no ground, each judged as it should be.
+
+What is not done, in the open. The repository does not exist yet. The GitHub App that does this project's publishing cannot create a new repository; GitHub answered 403, resource not accessible by integration. The finished tree waits for one act only the founder can do: create the empty repository named tools under this account. Then the tree publishes in one push, and its CI run, its six good first issues, its v0.1 tag, and its entry on the Shelf follow in that order. Nothing has been announced anywhere, and nothing will be: the tools are the announcement.
+
 ## October 17, 2026, evening: the fourth evolution pass
 
 **What shipped, one measured unit in each of the seven projects, in story order.**
