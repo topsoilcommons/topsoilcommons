@@ -14,13 +14,13 @@ The builder earns his living separately, in the open, in his own name: verificat
 
 ## Early exhibits
 
-- **Ground**, the body: 8 listings verified with check dates and expiries. [Live demo](https://topsoilcommons.github.io/ground/) · [Repository](https://github.com/topsoilcommons/ground)
-- **Still**, the mind at peace: a quiet practice tool that works offline, no data leaves the device. [Live demo](https://topsoilcommons.github.io/still/) · [Repository](https://github.com/topsoilcommons/still)
-- **Atlas**, learning: one claim, proven the same on phone, watch, voice, and wall. [Live demo](https://topsoilcommons.github.io/atlas/) · [Repository](https://github.com/topsoilcommons/atlas)
-- **Cohort**, belonging: MCP server joins as a real client, session transcript committed. [Live demo](https://topsoilcommons.github.io/cohort/) · [Repository](https://github.com/topsoilcommons/cohort)
-- **Machine**, autonomy: transformer gradient checks 7 of 7, PyTorch 4.13x per step. [Live demo](https://topsoilcommons.github.io/machine/) · [Repository](https://github.com/topsoilcommons/machine)
-- **Graph**, shared truth: entities F1 0.937, relations F1 0.605. [Live demo](https://topsoilcommons.github.io/graph/) · [Repository](https://github.com/topsoilcommons/graph)
-- **Lumen**, trust and meaning: refusal eval 12 of 12 blocked, 8 of 8 allowed. [Live demo](https://topsoilcommons.github.io/lumen/) · [Repository](https://github.com/topsoilcommons/lumen)
+- **Ground**: a board that verifies local help listings against each provider's own page; 158 listings across 19 places, every check dated and expiring 30 days later. Layer 0, the body. [Live demo](https://topsoilcommons.github.io/ground/) · [Repository](https://github.com/topsoilcommons/ground)
+- **Still**: a quiet single page tool to check in, breathe, and write; one file, zero network calls, nothing leaves the device. Layer 1, the mind at peace. [Live demo](https://topsoilcommons.github.io/still/) · [Repository](https://github.com/topsoilcommons/still)
+- **Atlas**: a learning atlas whose lessons cite their sources; its archived tutor eval stands at groundedness 0.922 on 17 questions, every answer citing a retrieved file. Layer 2, learning. [Live demo](https://topsoilcommons.github.io/atlas/) · [Repository](https://github.com/topsoilcommons/atlas)
+- **Cohort**: a community platform where people and AI agents share rooms as members; its MCP server joins as a real client, the test suite passes 8 of 8, and a live session transcript is committed as evidence. Layer 3, belonging. [Live demo](https://topsoilcommons.github.io/cohort/) · [Repository](https://github.com/topsoilcommons/cohort)
+- **Machine**: machine learning built from scratch in pure Python; a transformer with gradient checks 7 of 7 and a suite of 18 tests, all green. Layer 5, autonomy. [Live demo](https://topsoilcommons.github.io/machine/) · [Repository](https://github.com/topsoilcommons/machine)
+- **Graph**: a tool that extracts the entities and relations a text states, and publishes its misses; entities F1 0.8805, relations F1 0.6034 on 22 hand labeled documents. Layer 4, shared truth. [Live demo](https://topsoilcommons.github.io/graph/) · [Repository](https://github.com/topsoilcommons/graph)
+- **Lumen**: a guarded question answerer studied over three public domain texts; in each exhibit, 12 of 12 guarded questions refused and 8 of 8 allowed questions answered. Layer 6, trust and meaning. [Live demo](https://topsoilcommons.github.io/lumen/) · [Repository](https://github.com/topsoilcommons/lumen)
 
 Also here today:
 
