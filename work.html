@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work</title>
+<meta name="description" content="The work of Joshua Thomas, the builder of Topsoil Commons, shown as exhibits with their proof: verification systems, the seven Commons systems, client work as it lands, the Standing Record subscription, and demonstrations that stand open today.">
+<link rel="canonical" href="https://topsoilcommons.org/work">
+<meta name="theme-color" content="#fbfaf7">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Topsoil Commons">
+<meta property="og:title" content="Work">
+<meta property="og:description" content="The practice of Joshua Thomas, shown as exhibits with their proof: verification systems, seven working systems, client work as it lands, and a monthly verification subscription.">
+<meta property="og:url" content="https://topsoilcommons.org/work">
+<meta property="og:image" content="https://topsoilcommons.org/assets/aurora-logo.png">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="1600">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Work">
+<meta name="twitter:description" content="The practice of Joshua Thomas, shown as exhibits with their proof: verification systems, seven working systems, client work as it lands, and a monthly verification subscription.">
+<meta name="twitter:image" content="https://topsoilcommons.org/assets/aurora-logo.png">
+<link rel="stylesheet" href="assets/commons.css">
+<style>
+:root{--ink:#211812;--paper:#faf6ee;--line:#e0d5bf;--rub:#9e2b25}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:20px 20px 56px}
+h1{font-size:30px;line-height:1.25;margin:12px 0 6px;font-weight:600}
+.sub{font-size:17px;margin:0 0 8px}
+h2{font-size:22px;margin:36px 0 8px;font-weight:600}
+.exhibit{border-top:1px solid var(--line);padding:16px 0 4px}
+.exhibit p{font-size:17px;margin:0 0 10px}
+.exhibit .name{font-size:18px;font-weight:700;margin:0 0 4px}
+.rub{color:var(--rub)}
+footer{margin-top:58px;border-top:1px solid var(--line);padding:30px 0 46px;font-size:15px;color:#4c4234}
+footer p{margin:0 0 4px}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<nav class="commons-bar" aria-label="Topsoil Commons sites">
+<a class="wordmark" href="https://topsoilcommons.org/"><svg class="bar-mark" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false" style="flex:none;align-self:center;margin-right:7px"><g fill="currentColor"><rect x="4" y="2.5" width="16" height="2"/><rect x="4" y="5.5" width="16" height="2"/><rect x="4" y="8.5" width="16" height="2"/><rect x="4" y="11.5" width="4.5" height="8"/><rect x="15.5" y="11.5" width="4.5" height="8"/><rect x="2" y="20.5" width="20" height="2.2"/></g></svg>Topsoil Commons</a>
+<span class="current" aria-current="page">Work (you are here)</span>
+<a href="https://topsoilcommons.org/services">Services</a>
+<a href="https://topsoilcommons.org/foundations">Foundations</a>
+<a href="https://topsoilcommons.github.io/ground/">Ground</a>
+<a href="https://topsoilcommons.github.io/still/">Still</a>
+<a href="https://topsoilcommons.github.io/atlas/">Atlas</a>
+<a href="https://topsoilcommons.github.io/cohort/">Cohort</a>
+<a href="https://topsoilcommons.github.io/graph/">Graph</a>
+<a href="https://topsoilcommons.github.io/machine/">Machine</a>
+<a href="https://topsoilcommons.github.io/lumen/">Lumen</a>
+</nav>
+<main id="main">
+<h1>Work</h1>
+<p class="sub">This page is the portfolio of the practice of Joshua Thomas, the builder of Topsoil Commons: the work shown as exhibits, each one with the proof that stands behind it. Every number below sits in a sentence that says what was counted, and when it was counted.</p>
+<p class="sub">The offers themselves stand on <a href="services">the Services page</a>. This page is the evidence they point to.</p>
+
+<h2>Verification systems</h2>
+<div class="exhibit">
+<p class="name">The Ground board</p>
+<p>The Commons' own help board, and the standing sample of the verification work. <span class="rub">158</span> listings stand checked across <span class="rub">19</span> places, counted on October 17, 2026, every one read against its provider's own page. Each listing carries the date it was checked and an expiry date 30 days later, and the board runs on a 30 day recheck cycle: a listing that fails its recheck is dropped, and the drop is recorded. <a href="https://topsoilcommons.github.io/ground/">Read the board.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">check</p>
+<p>A standalone tool that does the Ground check for any board. It reads a directory of help listings, checks each listing again against the provider's own page, stamps the listings that still hold with the day of the run and an expiry date 30 days later, and names every failure in plain words. Its own test suite passes <span class="rub">8</span> of <span class="rub">8</span> tests.</p>
+</div>
+<div class="exhibit">
+<p class="name">prove</p>
+<p>The standalone validator for a Proof: a claim bound to its ground, its hand, and its check, with its links and its seal. prove recomputes the seal and prints a one page verdict that any stranger can rerun. Its test suite passes <span class="rub">9</span> of <span class="rub">9</span> tests.</p>
+</div>
+<div class="exhibit">
+<p class="name">chain</p>
+<p>A hash chain builder and verifier for any chronological record, taken from the Index's own design. It stamps each entry over the entry before it, and its verifier catches an edited entry, a removed entry, and a reordered pair, and prints which check failed. Its test suite passes <span class="rub">8</span> of <span class="rub">8</span> tests.</p>
+</div>
+<div class="exhibit">
+<p>Together, the three suites pass <span class="rub">25</span> of <span class="rub">25</span> tests, counted from the runs the <a href="progress">progress log</a> records on October 18, 2026. The suite is finished and stands in the public record. Its repository is being published now, and this page will link to it when it stands; until then, nothing here links to a repository that does not exist.</p>
+</div>
+
+<h2>The seven systems</h2>
+<p class="sub">The Commons itself is seven working systems, one for each layer of need, standing in order, not to scale of importance. Each exhibit below carries its system's standing figure, with what was counted and when, and the place to see it.</p>
+<div class="exhibit">
+<p class="name">Layer 0, the body: Ground</p>
+<p><span class="rub">158</span> listings for food, shelter, health, and safety help stand checked across <span class="rub">19</span> places, counted on October 17, 2026, each one against its provider's own page, on a 30 day recheck cycle. <a href="https://topsoilcommons.github.io/ground/">See it.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Layer 1, the mind at peace: Still</p>
+<p>The Still page makes <span class="rub">0</span> network calls. The whole tool runs on the page itself, and nothing leaves the visitor's device. <a href="https://topsoilcommons.github.io/still/">See it.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Layer 2, learning: Atlas</p>
+<p>On its measured question set, Atlas gives the correct source at a rate of <span class="rub">0.824</span>, as its evaluation record stood on October 17, 2026. <a href="https://topsoilcommons.github.io/atlas/">See it.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Layer 3, belonging: Cohort</p>
+<p>Cohort's test suite passes <span class="rub">8</span> of <span class="rub">8</span> tests, as the suite stood on October 17, 2026. <a href="https://topsoilcommons.github.io/cohort/">See it.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Layer 4, shared truth: Graph</p>
+<p>Graph scores <span class="rub">0.8502</span> for entities F1 on its labeled set of 22 documents, from the canonical rerun recorded on October 17, 2026. <a href="https://topsoilcommons.github.io/graph/">See it.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Layer 5, autonomy: Machine</p>
+<p>Machine's test suite stands at <span class="rub">16</span> tests, all green, as its record stood on October 17, 2026. <a href="https://topsoilcommons.github.io/machine/">See it.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Layer 6, trust and meaning: Lumen</p>
+<p>Lumen stands with <span class="rub">3</span> exhibits live: three guarded texts, each honored on its own terms, as the live page showed on October 17, 2026. <a href="https://topsoilcommons.github.io/lumen/">See it.</a></p>
+</div>
+
+<h2>Client work</h2>
+<p class="sub">No client engagements have landed yet, as this page is first published on October 18, 2026. Entries are added here as work is delivered and stands in the open. Each entry will follow the same pattern: the kind of client, what was delivered, the date it was delivered, and the link where its proof stands.</p>
+
+<h2>Standing Record</h2>
+<p class="sub">Opening soon. Standing Record is the verification work kept true as a subscription. A board checked once goes stale within a season, so this service rechecks the board every month and keeps its record standing.</p>
+<div class="exhibit">
+<p class="name">What a subscriber receives, every month</p>
+<p>Every listing on the board rechecked against the provider's own page. A stamped record page for the board that anyone can read. A report naming each listing that changed, each that failed, and each that was corrected. And corrections filed with the providers and followed until they resolve.</p>
+</div>
+<div class="exhibit">
+<p class="name">The three sizes</p>
+<p>The price is set by the size of the board. Board: <span class="rub">$499</span> a month, for a board of up to 150 listings. Network: <span class="rub">$999</span> a month, for a board of up to 500 listings. Region: <span class="rub">$2,499</span> a month, for a board of up to 2,000 listings, with the corrections work and a review call every three months carried in the price.</p>
+</div>
+<p class="sub">Standing Record is opening soon and takes no payment today. To ask about a board, <a href="https://www.linkedin.com/company/topsoil-commons/">send a message to the Topsoil Commons page on LinkedIn</a>.</p>
+
+<h2>Demonstrations</h2>
+<p class="sub">Four demonstrations stand open today. Each one runs in under a minute and asks nothing of the visitor.</p>
+<div class="exhibit">
+<p class="name">The Ground board</p>
+<p>Help near a place: food, shelter, health, and safety listings, each with the date it was checked. <a href="https://topsoilcommons.github.io/ground/">Open the board.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">The Index</p>
+<p>The Commons record in time order: every entry a claim with its ground, its hand, and its check. Recompute a seal yourself and file what you get. <a href="https://topsoilcommons.github.io/index/">Open the Index.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">The Atlas proof screen</p>
+<p>One claim shown with its full proof, the same on a phone, a watch, a voice, and a wall. <a href="https://topsoilcommons.github.io/atlas/">Open the proof screen.</a></p>
+</div>
+<div class="exhibit">
+<p class="name">Foundations</p>
+<p>Findings you can run yourself, each in under a minute, each with its source named and its limits printed. <a href="foundations">Run one.</a></p>
+</div>
+
+<footer>
+<p>One rule: raise the floor beneath everyone.</p>
+<p>Advised by Groundskeeper.</p>
+<p><a href="https://www.linkedin.com/company/topsoil-commons/">Topsoil Commons on LinkedIn</a></p>
+<p>For agents: <a href="llms.txt">llms.txt</a>, this site written plainly for agents.</p>
+</footer>
+</main>
+</body>
+</html>

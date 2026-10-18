@@ -31,6 +31,7 @@ PAGES = [
     "shelf.html",
     "records.html",
     "services.html",
+    "work.html",
 ]
 
 
