@@ -2,6 +2,10 @@
 
 This is the public record of the work: what was done, what the proof shows, what broke, and what comes next. It is updated every work session, newest first, in plain language on purpose. If a claim anywhere in these projects cannot be traced to a logged run, the claim is wrong and the log is where it gets corrected.
 
+## October 19, 2026, morning: one correction to the seventh pass
+
+The Machine paragraph in the entry below describes the grouped-query gradient checks as run "at the plain shape and at a scaled shape with a different grouping." The committed record is more exact: the two configurations are causal, with 4 query heads over 2 shared key and value heads, and non-causal, with a single shared key and value head, and the checks cover the input and all parameter gradients, with a largest absolute error of 4.6e-9 across both configurations. The entry below stands as written beside this correction, the way this log handles its own errors.
+
 ## October 19, 2026, morning: the seventh evolution pass
 
 **What shipped, one measured unit in each of the seven projects, in story order.**
