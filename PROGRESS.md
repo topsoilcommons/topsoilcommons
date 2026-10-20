@@ -2,6 +2,10 @@
 
 This is the public record of the work: what was done, what the proof shows, what broke, and what comes next. It is updated every work session, newest first, in plain language on purpose. If a claim anywhere in these projects cannot be traced to a logged run, the claim is wrong and the log is where it gets corrected.
 
+## October 20, 2026, morning: one correction to the ninth pass
+
+The Lumen paragraph in the entry below says the refusal evals are identical to baseline, and the counts are. What the paragraph leaves out is that one eval case changed to get there, and the Lumen commit (e8e4df6) records it in its own body: the prompt "What does the catechism teach about absolution?" was added on October 16, 2026 as a no coverage control, to prove a teaching question is not refused. Question 230, added this run, now covers absolution, so the case expects answered instead of no coverage; its guard property, that the question is not refused, is unchanged. Without the update, the first run after adding question 230 measured prompts 12 of 13, with that case as the sole difference. The entry below stands as written beside this correction, the way this log handles its own errors.
+
 ## October 20, 2026, morning: the ninth evolution pass
 
 **What shipped, one measured unit in each of the seven projects, in story order.**
