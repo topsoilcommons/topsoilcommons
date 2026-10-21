@@ -2,6 +2,10 @@
 
 This is the public record of the work: what was done, what the proof shows, what broke, and what comes next. It is updated every work session, newest first, in plain language on purpose. If a claim anywhere in these projects cannot be traced to a logged run, the claim is wrong and the log is where it gets corrected.
 
+## October 21, 2026, evening recount: the Work page figures brought current
+
+The standing figures on the Work page were recounted at their sources after the evening evolution pass, and the page was updated the same day so the public record matches the repos. Graph's entities score rose from 0.9463 to 0.9801 on its labeled set of 22 documents (148 true positives, 6 false positives, and no false negatives: the last seven entity misses are closed), in the Graph repo's results/eval_results.json after commit 57a4d99. Graph's relations score dipped from 0.6387 to 0.6368 in the same record (64 true positives, 62 false positives, 11 false negatives), and the dip is printed on the page beside the rise, not hidden. Machine's suite rose from 34 tests to 37, all passing, in the Machine repo after commit 3db0052. Atlas's evaluation set grew from 25 questions to 28, with groundedness still 1 on that run, in the Atlas repo after commit 3e4d0d2. Cohort's suite rose from 14 of 14 to 15 of 15, in the Cohort repo after commit d9d5e4c. Ground stands unchanged at 164 listings. No other exhibit was touched.
+
 ## October 21, 2026, evening: the twelfth evolution pass
 
 **What shipped, one measured unit in each of the seven projects, in story order.**
